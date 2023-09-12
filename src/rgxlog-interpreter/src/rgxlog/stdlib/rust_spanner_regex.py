@@ -217,4 +217,5 @@ RGX_STRING_FROM_FILE = dict(ie_function=rgx_string_from_file,
 
 # the package is installed when this module is imported
 if not _is_installed_package():
-    _download_and_install_rust_regex()
+    #_download_and_install_rust_regex()
+    pass
